@@ -21,15 +21,23 @@
 </head>
 <body>
 <h1>Privacy Policy — UsableUtilities</h1>
-<p class="updated">Last updated: August 6, 2026</p>
+<p class="updated">Last updated: August 11, 2026</p>
 
 <p>This policy applies to every app published by UsableUtilities ("we", "us", "our apps"), including Voltbox: Electrician Toolkit, Voltbox: PV Installer Toolkit, Brickbox: Mason Toolkit, Vectorbox: Pilot Toolkit, Timberbox: Carpenter Toolkit, and any future app in our lineup. It explains what data our apps do and do not collect.</p>
 
 <h2>Summary</h2>
-<p>Our apps do not collect, store, or transmit any personal data. Every app we publish works entirely on your device, with no account and no analytics — this is a deliberate, company-wide design choice, not something that varies app to app. The one exception is described below: Vectorbox's optional weather lookup feature, which fetches public aviation weather data from a third-party government service.</p>
+<p>By default, our apps do not collect, store, or transmit any personal data — every app works entirely on your device, with no account and no analytics. Two apps (Voltbox and Vectorbox, noted below) offer an optional cross-device sync feature: when you turn it on, your data goes to your own iCloud or Google Drive account, never to a server of ours. Vectorbox also has an optional weather lookup feature that fetches public aviation weather data from a third-party government service. Both are described in detail below; neither is on by default.</p>
 
 <h2>Data We Collect</h2>
-<p><strong>None.</strong> Our apps do not require account creation, and none of our apps operate a server or database of our own. Any inputs, saved data, and preferences (theme, language, text size, unlocked features, etc.) are stored locally on your device only, using standard iOS/Android local storage. We have no access to this data, and it is never transmitted to us or to any third party.</p>
+<p><strong>None, by default.</strong> Our apps do not require account creation, and none of our apps operate a server or database of our own. Any inputs, saved data, and preferences (theme, language, text size, unlocked features, etc.) are stored locally on your device only, using standard iOS/Android local storage. We have no access to this data, and it is never transmitted to us or to any third party. If you turn on the optional cross-device sync feature described below, that changes — read that section for what's involved.</p>
+
+<h2>Cross-Device Sync (Voltbox and Vectorbox only)</h2>
+<p>Voltbox: Electrician Toolkit and Vectorbox: Pilot Toolkit offer an optional, Pro-only "Sync" feature, off by default, that keeps your saved data (Projects, Saved Calculations, and — in Vectorbox — Flights and Aircraft profiles, including any notes or photos you add) available across your own devices. You choose exactly one of the following; nothing is synced until you do:</p>
+<ul>
+  <li><strong>iCloud</strong> — your data is stored in your own iCloud account via Apple's CloudKit, under your Apple ID. This goes directly from your device to Apple; we have no access to it. See <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</li>
+  <li><strong>Google Drive</strong> — you sign in with your Google account, and your data is stored in a hidden, app-only folder in your own Google Drive (not visible in your regular Drive file list, and not accessible to any other app). Signing in shares your Google account email with the app to authenticate the connection; we do not receive it ourselves, store it on any server, or use it for anything beyond that sign-in. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+</ul>
+<p>In both cases, the data goes to a cloud account that belongs to you, under your own Apple ID or Google account — never to a server operated by us, and we never see, access, or have any ability to read its contents. Turning sync off (or never turning it on) means nothing described here applies.</p>
 
 <h2>Weather Data (Vectorbox only)</h2>
 <p>Vectorbox: Pilot Toolkit includes an optional Weather Lookup feature (METAR/TAF) that sends the airport identifier you search for directly to the National Oceanic and Atmospheric Administration's public Aviation Weather Center API (<a href="https://aviationweather.gov" target="_blank" rel="noopener">aviationweather.gov</a>), a free U.S. government service that requires no account or API key. No personal or device data is sent — only the airport code you enter. We do not operate this service, do not see or store your queries, and the request goes directly from your device to NOAA. The most recent successful result is cached locally on your device (not on any server of ours) so it remains available if you look it up again without a connection. Every other feature in Vectorbox, and every feature in every other app we publish, works fully offline with no network request of any kind.</p>
